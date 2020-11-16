@@ -6,9 +6,19 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#446677",
+    "navigationBarTitleText": "微信小程序开发",
+    "navigationBarTextStyle": "white",
+    "pageOrientation": "portrait"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "text": "日志"
+    }]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
